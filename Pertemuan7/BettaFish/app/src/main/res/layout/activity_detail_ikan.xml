@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin"
+    android:background="@color/Gray"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+    tools:context=".DetailIkan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_view"
+            android:layout_width="185dp"
+            android:layout_height="185dp"
+            android:layout_margin="@dimen/margin"/>
+
+        <TextView
+            android:id="@+id/txt_nama"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/img_view"
+            android:text="Nama"
+            android:textSize="20dp"
+            android:textColor="@color/putih"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/txt_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nama"
+
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="1dp"
+            android:layout_toRightOf="@id/img_view"
+            android:text="Detail"
+            android:textStyle="normal|italic"
+            android:textColor="@color/putih"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_detail_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:textColor="@color/putih"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_margin="@dimen/margin">
+
+        <TextView
+            android:id="@+id/jenis"
+            android:layout_width="50dp"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:text="Jenis "
+            android:textColor="@color/putih"
+            android:textStyle="bold|italic"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_jenis"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_margin="@dimen/margin"
+            android:textColor="@color/putih"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/jenis"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin">
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin"
+
+            android:layout_marginLeft="@dimen/margin"
+            android:text="Harga "
+            android:textColor="@color/putih"
+            android:textStyle="bold|italic"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:gravity="right"
+            android:textColor="@color/putih"
+            android:layout_toRightOf="@+id/harga" />
+
+    </RelativeLayout>
+
+</LinearLayout>

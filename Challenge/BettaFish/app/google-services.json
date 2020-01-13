@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "755200151390",
+    "firebase_url": "https://bettafish-e9874.firebaseio.com",
+    "project_id": "bettafish-e9874",
+    "storage_bucket": "bettafish-e9874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755200151390:android:1ae70aa262bcd3d37c89cf",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755200151390-85slcou4ufhm3vvi79fjsqkdjfnslcdk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin",
+            "certificate_hash": "6554a2f2505682ea749cafbcf33326f2ff69d750"
+          }
+        },
+        {
+          "client_id": "755200151390-t8eg16j8o5k8mk86nnir4c795ggrm9nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx_HeNQUvzxsLIAjHQbKcbVSpUaPuj0pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755200151390-t8eg16j8o5k8mk86nnir4c795ggrm9nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755200151390:android:17a8564ad8da67687c89cf",
+        "android_client_info": {
+          "package_name": "com.example.bettafish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755200151390-4rhlha4qm3apn3bonvu59djonn1h0lju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bettafish",
+            "certificate_hash": "094e55255c712978fdd9ab754899246b05221e94"
+          }
+        },
+        {
+          "client_id": "755200151390-knu9chi0vdob727bebkd6v0o0o8oppio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bettafish",
+            "certificate_hash": "6554a2f2505682ea749cafbcf33326f2ff69d750"
+          }
+        },
+        {
+          "client_id": "755200151390-t8eg16j8o5k8mk86nnir4c795ggrm9nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx_HeNQUvzxsLIAjHQbKcbVSpUaPuj0pA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755200151390-t8eg16j8o5k8mk86nnir4c795ggrm9nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

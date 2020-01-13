@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+
+    tools:context=".DetailListIkan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450px"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/img_detail"
+            android:layout_width="300px"
+            android:layout_height="450px"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/nama_ikan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama IKAN"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        android:background="@color/colorPrimary">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            >
+            <TextView
+                android:layout_margin="10dp"
+                android:id="@+id/desc_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="desc"
+                android:textSize="16sp"
+                android:textColor="@android:color/background_light"
+                />
+
+        </ScrollView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

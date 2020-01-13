@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112124587990",
+    "firebase_url": "https://pengingattugas-5cd65.firebaseio.com",
+    "project_id": "pengingattugas-5cd65",
+    "storage_bucket": "pengingattugas-5cd65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112124587990:android:bb1521ecf29e786372be77",
+        "android_client_info": {
+          "package_name": "com.example.pengingattugas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112124587990-p2ddsq88psrkohmgqkl48v1ujed3olua.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pengingattugas",
+            "certificate_hash": "094e55255c712978fdd9ab754899246b05221e94"
+          }
+        },
+        {
+          "client_id": "112124587990-752k99i3n24ufuq58tqppjcr8kuvvj6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOCzDwM6pIkigUh-Pw4VM3xge0HkDoJoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112124587990-752k99i3n24ufuq58tqppjcr8kuvvj6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

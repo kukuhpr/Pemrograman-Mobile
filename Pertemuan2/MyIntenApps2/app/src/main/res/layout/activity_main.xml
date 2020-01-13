@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#CD5C5C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/horizontal_activity"
+    android:layout_marginBottom="@dimen/vertical_activity"
+    android:layout_marginRight="@dimen/horizontal_activity"
+    android:layout_marginLeft="@dimen/horizontal_activity"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMove"
+        android:background="#DB7093"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/btnMoveData"
+        android:background="#DB7093"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/move_data"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:background="#DB7093"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/btnITTP"
+        android:background="#DB7093"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website ITTP"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textStyle="italic"
+    />
+
+    <Button
+        android:id="@+id/btn_Ex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DB7093"
+        android:text="intent_explicit"
+        android:layout_marginTop="@dimen/vertical_activity"
+        android:textSize="16dp"
+        android:textStyle="italic"
+        android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
